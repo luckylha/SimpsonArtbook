@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		053524A82412026400489E94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053524A72412026400489E94 /* AppDelegate.swift */; };
+		053524AA2412026400489E94 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053524A92412026400489E94 /* SceneDelegate.swift */; };
+		053524AC2412026500489E94 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053524AB2412026500489E94 /* ViewController.swift */; };
+		053524AF2412026500489E94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 053524AD2412026500489E94 /* Main.storyboard */; };
+		053524B12412026B00489E94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 053524B02412026B00489E94 /* Assets.xcassets */; };
+		053524B42412026B00489E94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 053524B22412026B00489E94 /* LaunchScreen.storyboard */; };
+		053524BF2412026B00489E94 /* Simpsons_ArtbookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053524BE2412026B00489E94 /* Simpsons_ArtbookTests.swift */; };
+		053524CA2412026B00489E94 /* Simpsons_ArtbookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053524C92412026B00489E94 /* Simpsons_ArtbookUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		053524BB2412026B00489E94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0535249C2412026400489E94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 053524A32412026400489E94;
+			remoteInfo = "Simpsons Artbook";
+		};
+		053524C62412026B00489E94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0535249C2412026400489E94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 053524A32412026400489E94;
+			remoteInfo = "Simpsons Artbook";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		053524A42412026400489E94 /* Simpsons Artbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simpsons Artbook.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		053524A72412026400489E94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		053524A92412026400489E94 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		053524AB2412026500489E94 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		053524AE2412026500489E94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		053524B02412026B00489E94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		053524B32412026B00489E94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		053524B52412026B00489E94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		053524BA2412026B00489E94 /* Simpsons ArtbookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simpsons ArtbookTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		053524BE2412026B00489E94 /* Simpsons_ArtbookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simpsons_ArtbookTests.swift; sourceTree = "<group>"; };
+		053524C02412026B00489E94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		053524C52412026B00489E94 /* Simpsons ArtbookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simpsons ArtbookUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		053524C92412026B00489E94 /* Simpsons_ArtbookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simpsons_ArtbookUITests.swift; sourceTree = "<group>"; };
+		053524CB2412026B00489E94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		053524A12412026400489E94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		053524B72412026B00489E94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		053524C22412026B00489E94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0535249B2412026400489E94 = {
+			isa = PBXGroup;
+			children = (
+				053524A62412026400489E94 /* Simpsons Artbook */,
+				053524BD2412026B00489E94 /* Simpsons ArtbookTests */,
+				053524C82412026B00489E94 /* Simpsons ArtbookUITests */,
+				053524A52412026400489E94 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		053524A52412026400489E94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				053524A42412026400489E94 /* Simpsons Artbook.app */,
+				053524BA2412026B00489E94 /* Simpsons ArtbookTests.xctest */,
+				053524C52412026B00489E94 /* Simpsons ArtbookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		053524A62412026400489E94 /* Simpsons Artbook */ = {
+			isa = PBXGroup;
+			children = (
+				053524A72412026400489E94 /* AppDelegate.swift */,
+				053524A92412026400489E94 /* SceneDelegate.swift */,
+				053524AB2412026500489E94 /* ViewController.swift */,
+				053524AD2412026500489E94 /* Main.storyboard */,
+				053524B02412026B00489E94 /* Assets.xcassets */,
+				053524B22412026B00489E94 /* LaunchScreen.storyboard */,
+				053524B52412026B00489E94 /* Info.plist */,
+			);
+			path = "Simpsons Artbook";
+			sourceTree = "<group>";
+		};
+		053524BD2412026B00489E94 /* Simpsons ArtbookTests */ = {
+			isa = PBXGroup;
+			children = (
+				053524BE2412026B00489E94 /* Simpsons_ArtbookTests.swift */,
+				053524C02412026B00489E94 /* Info.plist */,
+			);
+			path = "Simpsons ArtbookTests";
+			sourceTree = "<group>";
+		};
+		053524C82412026B00489E94 /* Simpsons ArtbookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				053524C92412026B00489E94 /* Simpsons_ArtbookUITests.swift */,
+				053524CB2412026B00489E94 /* Info.plist */,
+			);
+			path = "Simpsons ArtbookUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		053524A32412026400489E94 /* Simpsons Artbook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 053524CE2412026B00489E94 /* Build configuration list for PBXNativeTarget "Simpsons Artbook" */;
+			buildPhases = (
+				053524A02412026400489E94 /* Sources */,
+				053524A12412026400489E94 /* Frameworks */,
+				053524A22412026400489E94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Simpsons Artbook";
+			productName = "Simpsons Artbook";
+			productReference = 053524A42412026400489E94 /* Simpsons Artbook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		053524B92412026B00489E94 /* Simpsons ArtbookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 053524D12412026B00489E94 /* Build configuration list for PBXNativeTarget "Simpsons ArtbookTests" */;
+			buildPhases = (
+				053524B62412026B00489E94 /* Sources */,
+				053524B72412026B00489E94 /* Frameworks */,
+				053524B82412026B00489E94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				053524BC2412026B00489E94 /* PBXTargetDependency */,
+			);
+			name = "Simpsons ArtbookTests";
+			productName = "Simpsons ArtbookTests";
+			productReference = 053524BA2412026B00489E94 /* Simpsons ArtbookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		053524C42412026B00489E94 /* Simpsons ArtbookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 053524D42412026B00489E94 /* Build configuration list for PBXNativeTarget "Simpsons ArtbookUITests" */;
+			buildPhases = (
+				053524C12412026B00489E94 /* Sources */,
+				053524C22412026B00489E94 /* Frameworks */,
+				053524C32412026B00489E94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				053524C72412026B00489E94 /* PBXTargetDependency */,
+			);
+			name = "Simpsons ArtbookUITests";
+			productName = "Simpsons ArtbookUITests";
+			productReference = 053524C52412026B00489E94 /* Simpsons ArtbookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0535249C2412026400489E94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "lucky lukmanul";
+				TargetAttributes = {
+					053524A32412026400489E94 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					053524B92412026B00489E94 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 053524A32412026400489E94;
+					};
+					053524C42412026B00489E94 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 053524A32412026400489E94;
+					};
+				};
+			};
+			buildConfigurationList = 0535249F2412026400489E94 /* Build configuration list for PBXProject "Simpsons Artbook" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0535249B2412026400489E94;
+			productRefGroup = 053524A52412026400489E94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				053524A32412026400489E94 /* Simpsons Artbook */,
+				053524B92412026B00489E94 /* Simpsons ArtbookTests */,
+				053524C42412026B00489E94 /* Simpsons ArtbookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		053524A22412026400489E94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				053524B42412026B00489E94 /* LaunchScreen.storyboard in Resources */,
+				053524B12412026B00489E94 /* Assets.xcassets in Resources */,
+				053524AF2412026500489E94 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		053524B82412026B00489E94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		053524C32412026B00489E94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		053524A02412026400489E94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				053524AC2412026500489E94 /* ViewController.swift in Sources */,
+				053524A82412026400489E94 /* AppDelegate.swift in Sources */,
+				053524AA2412026400489E94 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		053524B62412026B00489E94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				053524BF2412026B00489E94 /* Simpsons_ArtbookTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		053524C12412026B00489E94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				053524CA2412026B00489E94 /* Simpsons_ArtbookUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		053524BC2412026B00489E94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 053524A32412026400489E94 /* Simpsons Artbook */;
+			targetProxy = 053524BB2412026B00489E94 /* PBXContainerItemProxy */;
+		};
+		053524C72412026B00489E94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 053524A32412026400489E94 /* Simpsons Artbook */;
+			targetProxy = 053524C62412026B00489E94 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		053524AD2412026500489E94 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				053524AE2412026500489E94 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		053524B22412026B00489E94 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				053524B32412026B00489E94 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		053524CC2412026B00489E94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		053524CD2412026B00489E94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		053524CF2412026B00489E94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Simpsons Artbook/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.emveep.Simpsons-Artbook";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		053524D02412026B00489E94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Simpsons Artbook/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.emveep.Simpsons-Artbook";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		053524D22412026B00489E94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Simpsons ArtbookTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.emveep.Simpsons-ArtbookTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Simpsons Artbook.app/Simpsons Artbook";
+			};
+			name = Debug;
+		};
+		053524D32412026B00489E94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Simpsons ArtbookTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.emveep.Simpsons-ArtbookTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Simpsons Artbook.app/Simpsons Artbook";
+			};
+			name = Release;
+		};
+		053524D52412026B00489E94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Simpsons ArtbookUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.emveep.Simpsons-ArtbookUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Simpsons Artbook";
+			};
+			name = Debug;
+		};
+		053524D62412026B00489E94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Simpsons ArtbookUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.emveep.Simpsons-ArtbookUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Simpsons Artbook";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0535249F2412026400489E94 /* Build configuration list for PBXProject "Simpsons Artbook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				053524CC2412026B00489E94 /* Debug */,
+				053524CD2412026B00489E94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		053524CE2412026B00489E94 /* Build configuration list for PBXNativeTarget "Simpsons Artbook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				053524CF2412026B00489E94 /* Debug */,
+				053524D02412026B00489E94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		053524D12412026B00489E94 /* Build configuration list for PBXNativeTarget "Simpsons ArtbookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				053524D22412026B00489E94 /* Debug */,
+				053524D32412026B00489E94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		053524D42412026B00489E94 /* Build configuration list for PBXNativeTarget "Simpsons ArtbookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				053524D52412026B00489E94 /* Debug */,
+				053524D62412026B00489E94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0535249C2412026400489E94 /* Project object */;
+}
