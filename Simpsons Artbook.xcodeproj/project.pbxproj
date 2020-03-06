@@ -15,6 +15,8 @@
 		053524B42412026B00489E94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 053524B22412026B00489E94 /* LaunchScreen.storyboard */; };
 		053524BF2412026B00489E94 /* Simpsons_ArtbookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053524BE2412026B00489E94 /* Simpsons_ArtbookTests.swift */; };
 		053524CA2412026B00489E94 /* Simpsons_ArtbookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053524C92412026B00489E94 /* Simpsons_ArtbookUITests.swift */; };
+		053524D82412056000489E94 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053524D72412056000489E94 /* DetailVC.swift */; };
+		053524DA2412074E00489E94 /* Simpsons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053524D92412074E00489E94 /* Simpsons.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		053524C52412026B00489E94 /* Simpsons ArtbookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simpsons ArtbookUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		053524C92412026B00489E94 /* Simpsons_ArtbookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simpsons_ArtbookUITests.swift; sourceTree = "<group>"; };
 		053524CB2412026B00489E94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		053524D72412056000489E94 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		053524D92412074E00489E94 /* Simpsons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simpsons.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,8 +106,10 @@
 				053524A72412026400489E94 /* AppDelegate.swift */,
 				053524A92412026400489E94 /* SceneDelegate.swift */,
 				053524AB2412026500489E94 /* ViewController.swift */,
+				053524D72412056000489E94 /* DetailVC.swift */,
 				053524AD2412026500489E94 /* Main.storyboard */,
 				053524B02412026B00489E94 /* Assets.xcassets */,
+				053524D92412074E00489E94 /* Simpsons.swift */,
 				053524B22412026B00489E94 /* LaunchScreen.storyboard */,
 				053524B52412026B00489E94 /* Info.plist */,
 			);
@@ -260,8 +266,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				053524AC2412026500489E94 /* ViewController.swift in Sources */,
+				053524D82412056000489E94 /* DetailVC.swift in Sources */,
 				053524A82412026400489E94 /* AppDelegate.swift in Sources */,
 				053524AA2412026400489E94 /* SceneDelegate.swift in Sources */,
+				053524DA2412074E00489E94 /* Simpsons.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
